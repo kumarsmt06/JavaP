@@ -9,6 +9,7 @@ class Transfer{//class for transferring messages
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println(message + " is sent.");
     }
 }
 
