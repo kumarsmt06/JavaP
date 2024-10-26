@@ -1,4 +1,11 @@
 package keywords;
+
+/*
+ * this keyword is a reference to the current instance of the class in which it is used. 
+ * It's commonly used in object-oriented programming to differentiate between 
+ * instance variables (fields) and parameters, as well as to invoke other constructors 
+ * and methods within the same class.
+ */
 class MyClass{
     private int a, b;
 
