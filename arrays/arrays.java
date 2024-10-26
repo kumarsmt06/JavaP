@@ -19,29 +19,32 @@ public class arrays {
         floatArr[4] = 11.1232F;
         floatArr[5] = 12.2450F;
 
-        System.out.println("Enter Float array: ");
-        for(int i = 0; i < 6; i++){
-            System.out.println(floatArr[i] + " ");
-
-        }
+        
 
         for(int i = 0; i < 6; i++){
-            System.out.println("Enter character for index (" + i + "): ");
+            System.out.print("Enter character for index (" + i + "): ");
             charArr[i] = sc.next().charAt(0); // take input and store to characteer array
 
         }
+        
+        System.out.println();
 
-        System.out.println("Enter Integer array: ");
+        System.out.println("Items Integer array: ");
         for(int i = 0; i < 6; i++){
-            System.out.println(intArr[i] + " ");
+            System.out.print(intArr[i] + " ");
+
+        }
+        System.out.println("Items Float array: ");
+        for(int i = 0; i < 6; i++){
+            System.out.print(floatArr[i] + " ");
 
         }
 
         System.out.println();
 
-        System.out.println("Items of Character array: ");
+        System.out.print("Items of Character array: ");
         for(char ch: charArr){
-            System.out.println(ch + " ");
+            System.out.print(ch + " ");
 
         }
 
