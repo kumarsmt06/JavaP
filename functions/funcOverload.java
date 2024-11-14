@@ -26,7 +26,7 @@ public class funcOverload {
     }
 
     public static void main(String[] args) {
-        area(2,3);
+        area(2.1f,3);
         area(3);
         area(4.23);
     }
